@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-image: url('../../../asset/images/c_givers.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+
+.form_content{
+    width:700px;
+    background:#fff;
+    padding:15px;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,.2);
+}
+
+.form-group > label{
+    font-weight: 500;
+}
